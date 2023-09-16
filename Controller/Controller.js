@@ -60,9 +60,9 @@ const Setlogs = async (req, res) => {
         let sql_logs = await Get_IPlogs(req.ip)
         // This One for Logs Records
         if (mongo_logs === null || sql_logs.length === 0) {
+            sql_logs = await Post_IPlogs(req.ip);
             mongo_logs = await logsSchema.create({ IP_address: req.ip, hits: 1 })
             // Since It will also not present in Sql Database, post data into sql database
-            sql_logs = await Post_IPlogs(req.ip);
         } else {
             mongo_logs = await logsSchema.findOneAndUpdate({ IP_address: mongo_logs.IP_address }, { $inc: { 'hits': 1 } }, { new: true, runValidators: true })
             sql_logs = await Update_IPlogs_Count(req.ip);

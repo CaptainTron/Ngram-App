@@ -6,7 +6,7 @@ CREATE TABLE connection_logs(
 CREATE TABLE text_logs(
     IP_Address varchar(255),
     texts varchar(255),
-);
+); 
 
 
 -- INSERT INTO logs(IP_Address, count, Date_Time) VALUES
