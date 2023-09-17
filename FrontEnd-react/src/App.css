@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+  font-size: 2vh;
+}
+
+.headingtxt {
+  font-size: 3vh;
+  text-align: center;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
+
+
+#textcontainer {
+  border-radius: 1vh;
+  border: none;
+  width: 30vw;
+  height: 5vh;
+  color: wheat;
+  background-color: transparent;
+  border-bottom: 1px solid wheat;
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  font-size: 3vh;
+  padding: 1vh;
+
+  outline: none;
+}
+
+#textcontainer::placeholder {
+  color: white;
+  opacity: 0.3;
+}
+
+.captiontext {
+  font-size: 1.5vh;
+  font-style: italic;
+}
+
+/* This one for sideview */
+.backenddata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.senddatastring {
+  color: lime;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.loadingstate {
+  text-align: center;
+  color: lime;
+}
+
+.ngramvalue {
+  color: lime;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.creatorappMain {
+  position: absolute;
+  z-index: 2;
+  left: 1vw;
+  bottom: 1vh;
+  text-align: center;
+}
