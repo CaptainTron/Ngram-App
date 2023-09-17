@@ -11,7 +11,7 @@ Tasks Completed:
 3. Log the number of times a connection is made by the frontend and insert it into a Mongoose model and SQL table.
 4. Insert text from the frontend into another Model and Table.
 5. Django api using the most recent 2 strings and returns the ngrams to the frontend.
-6. A repo on GitHub which has all the commits, independent branches for the 3 pipelines that are merged for submission. Make sure that there are merge conflicts that you can resolve and show you skills.
+6. A repo on GitHub which has all the commits, independent branches for the 3 pipelines that are merged for submission.  
 >7. I've already used all of my credits before, so I can not create VMs on Google Cloud Platform (GCP).
 8. Containerise each of the components (Node frontend, Node backend, Django Backend) on independent docker containers
 9. 4 minute video on Youtube.
