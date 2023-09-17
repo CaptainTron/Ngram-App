@@ -14,7 +14,7 @@ Tasks Completed:
 6. A repo on GitHub which has all the commits, independent branches for the 3 pipelines that are merged for submission.  
 >7. I've already used all of my credits before, so I can not create VMs on Google Cloud Platform (GCP).
 8. Containerise each of the components (Node frontend, Node backend, Django Backend) on independent docker containers
-9. 4 minute video on Youtube.
+9. 4 minute video on [Youtube](https://youtu.be/UjZ_W2Uq6jc) .
 
 
 ***_Points to Note_***  
