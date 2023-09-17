@@ -3,7 +3,7 @@
 This is Containarized version of Django, Express, and React. 
 You just need to run ```docker-compose up -d``` in root directory to run this whole app _Note: docker must be installed on your system ._  
 This project consists of ReactJS , ExpressJS , and django apps.  
-Here ReactJS act as frontend that takes text input from user and send it to backend Express JS which logs number of Request made by frontend as number of Hits, and text that was received from frontend, into separate SQL tables and Mongodb models.
+Here ReactJS act as frontend that takes text input from user and send it to backend Express JS which logs number of Request made by frontend as number of Hits, and text that was received from frontend, into separate SQL tables and Mongodb models, and returns the ngram of 2 strings to the frontend from django Ngram App.
 
 Tasks Completed:
 1. Backend using ExpressJS.
