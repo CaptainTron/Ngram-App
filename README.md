@@ -5,16 +5,15 @@ You just need to run ```docker-compose up -d``` in root directory to run this wh
 This project consists of ReactJS , ExpressJS , and django apps.  
 Here ReactJS act as frontend that takes text input from user and send it to backend Express JS which logs number of Request made by frontend as number of Hits, and text that was received from frontend, into separate SQL tables and Mongodb models, and returns the ngram of 2 strings to the frontend from django Ngram App.
 
-Tasks Completed:
+Actions:
 1. Backend using ExpressJS.
 2. A PWA using React that accepts text input and sends it to the backend.
 3. Log the number of times a connection is made by the frontend and insert it into a Mongoose model and SQL table.
 4. Insert text from the frontend into another Model and Table.
 5. Django api using the most recent 2 strings and returns the ngrams to the frontend.
 6. A repo on GitHub which has all the commits, independent branches for the 3 pipelines that are merged for submission.  
->7. I've already used all of my credits before, so I can not create VMs on Google Cloud Platform (GCP).
-8. Containerise each of the components (Node frontend, Node backend, Django Backend) on independent docker containers
-9. 4 minute video on [Youtube](https://youtu.be/UjZ_W2Uq6jc) .
+7. Containerise each of the components (Node frontend, Node backend, Django Backend) on independent docker containers
+8. 4 minute video on [Youtube](https://youtu.be/UjZ_W2Uq6jc) .
 
 
 ***_Points to Note_***  
