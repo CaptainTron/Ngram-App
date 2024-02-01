@@ -1,5 +1,5 @@
 # Ngram App
-### This Project takes 2 String and Returns Ngrams .
+### This App takes 2 String and Returns Ngrams .
 This is Containarized version of Django, Express, and React. 
 You just need to run ```docker-compose up -d``` in root directory to run this whole app _Note: docker must be installed on your system ._  
 This project consists of ReactJS , ExpressJS , and django apps.  
