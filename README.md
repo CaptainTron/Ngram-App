@@ -1,7 +1,7 @@
 # Ngram App
 
 ### What is it ?
-This isa Ngram-app takes 2 String and Returns Ngrams.  
+This isa Ngram-app takes 2 String and Returns Ngrams. [Watch demo](https://youtu.be/UjZ_W2Uq6jc).  
 This is Containarized version of Django, Express, and React. 
 You just need to run ```docker-compose up -d``` in root directory to run this whole app _Note: docker must be installed on your system ._  
 This project consists of ReactJS , ExpressJS , and django apps.  
@@ -18,8 +18,7 @@ Visuals
 4. Insert text from the frontend into another Model and Table.
 5. Django api using the most recent 2 strings and returns the ngrams to the frontend.
 6. A repo on GitHub which has all the commits, independent branches for the 3 pipelines that are merged for submission.  
-7. Containerise each of the components (Node frontend, Node backend, Django Backend) on independent docker containers
-8. 4 minute video on [Youtube](https://youtu.be/UjZ_W2Uq6jc) .
+7. Containerise each of the components (Node frontend, Node backend, Django Backend) on independent docker containers.  
 
 
 ***_Points to Note_***  
