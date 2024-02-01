@@ -1,11 +1,17 @@
 # Ngram App
-### This App takes 2 String and Returns Ngrams .
+
+### What is it ?
+This isa Ngram-app takes 2 String and Returns Ngrams.  
 This is Containarized version of Django, Express, and React. 
 You just need to run ```docker-compose up -d``` in root directory to run this whole app _Note: docker must be installed on your system ._  
 This project consists of ReactJS , ExpressJS , and django apps.  
 Here ReactJS act as frontend that takes text input from user and send it to backend Express JS which logs number of Request made by frontend as number of Hits, and text that was received from frontend, into separate SQL tables and Mongodb models, and returns the ngram of 2 strings to the frontend from django Ngram App.
 
-Actions:
+Visuals
+![image](https://github.com/CaptainTron/Ngram-App/assets/94986377/b064f1df-d98b-44ea-84a6-db6bc8a42418)
+
+
+### Tech Stack Used  
 1. Backend using ExpressJS.
 2. A PWA using React that accepts text input and sends it to the backend.
 3. Log the number of times a connection is made by the frontend and insert it into a Mongoose model and SQL table.
